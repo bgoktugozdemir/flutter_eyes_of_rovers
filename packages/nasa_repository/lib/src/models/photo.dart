@@ -1,4 +1,4 @@
-import 'package:nasa_api/nasa_api.dart';
+import 'package:nasa_repository/nasa_repository.dart';
 
 class Photo {
   const Photo({

@@ -62,6 +62,18 @@ void main() {
             )).called(1);
       });
 
+      test('throws NasaApiOverRateLimitFailure on 429 response', () async {
+        final response = MockResponse();
+
+        when(() => response.statusCode).thenReturn(429);
+        when(() => httpClient.get(any())).thenAnswer((_) async => response);
+
+        expect(
+          () async => nasaApiClient.getPhotos(rover, {'sol': '$sol'}),
+          throwsA(isA<NasaApiOverRateLimitFailure>()),
+        );
+      });
+
       test('throws NasaApiRequestFailure on non-200 response', () async {
         final response = MockResponse();
 

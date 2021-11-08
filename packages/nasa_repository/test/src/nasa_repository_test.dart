@@ -53,8 +53,6 @@ void main() {
               } } ] }''';
 
       test('throws NasaApiRequestFailure on non-200 response', () {
-        final response = MockResponse();
-
         when(() => nasaApiClient.getPhotos(any(), any()))
             .thenThrow(NasaApiRequestFailure());
 
@@ -187,8 +185,6 @@ void main() {
                   } } ] }''';
 
       test('throws NasaApiRequestFailure on non-200 response', () {
-        final response = MockResponse();
-
         when(() => nasaApiClient.getPhotos(any(), any()))
             .thenThrow(NasaApiRequestFailure());
 

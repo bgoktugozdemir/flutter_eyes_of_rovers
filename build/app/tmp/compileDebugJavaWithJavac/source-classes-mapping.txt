@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/example/parasut_eyes_of_rovers/BuildConfig.java
+ com.example.parasut_eyes_of_rovers.BuildConfig

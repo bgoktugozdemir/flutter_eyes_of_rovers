@@ -1,6 +1,7 @@
+import 'package:equatable/equatable.dart';
 import 'package:nasa_repository/nasa_repository.dart';
 
-class Photo {
+class Photo extends Equatable {
   const Photo({
     required this.id,
     required this.sol,
@@ -40,4 +41,7 @@ class Photo {
   String toString() {
     return 'Photo(id: $id, sol: $sol, camera: $camera, imgSrc: $imgSrc, earthDate: $earthDate, rover: $rover)';
   }
+
+  @override
+  List<Object> get props => [id, sol, camera, imgSrc, earthDate, rover];
 }

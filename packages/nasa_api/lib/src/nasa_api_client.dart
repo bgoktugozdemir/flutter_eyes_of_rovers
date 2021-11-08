@@ -2,11 +2,7 @@ import 'dart:io';
 
 import 'package:enum_to_string/enum_to_string.dart';
 import 'package:http/http.dart' as http;
-
-/// Exception thrown when a request fails.
-class NasaApiRequestFailure implements Exception {}
-
-enum Rovers { curiosity, opportunity, spirit }
+import 'package:nasa_api/nasa_api.dart';
 
 class NasaApiClient {
   NasaApiClient({http.Client? httpClient})
@@ -32,7 +28,9 @@ class NasaApiClient {
 
     final response = await _httpClient.get(request);
 
-    if (response.statusCode != HttpStatus.ok) {
+    if (response.statusCode == 429) {
+      throw NasaApiOverRateLimitFailure();
+    } else if (response.statusCode != HttpStatus.ok) {
       throw NasaApiRequestFailure();
     } else {
       return response;

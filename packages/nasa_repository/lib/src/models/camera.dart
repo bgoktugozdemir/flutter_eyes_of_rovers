@@ -1,4 +1,6 @@
-class Camera {
+import 'package:equatable/equatable.dart';
+
+class Camera extends Equatable {
   const Camera({
     required this.id,
     required this.name,
@@ -24,4 +26,7 @@ class Camera {
         "rover_id": roverId,
         "full_name": fullName,
       };
+
+  @override
+  List<Object> get props => [id, name, roverId, fullName];
 }

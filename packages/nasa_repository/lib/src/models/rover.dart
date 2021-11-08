@@ -1,4 +1,6 @@
-class Rover {
+import 'package:equatable/equatable.dart';
+
+class Rover extends Equatable {
   const Rover({
     required this.id,
     required this.name,
@@ -30,4 +32,7 @@ class Rover {
             "${launchDate.year.toString().padLeft(4, '0')}-${launchDate.month.toString().padLeft(2, '0')}-${launchDate.day.toString().padLeft(2, '0')}",
         "status": status,
       };
+
+  @override
+  List<Object> get props => [id, name, landingDate, launchDate, status];
 }

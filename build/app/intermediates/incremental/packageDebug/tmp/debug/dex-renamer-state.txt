@@ -1,0 +1,4 @@
+#Sun Nov 07 23:52:22 TRT 2021
+base.0=/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

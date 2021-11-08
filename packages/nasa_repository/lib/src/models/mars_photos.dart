@@ -1,5 +1,6 @@
 import 'dart:convert';
 
+import 'package:equatable/equatable.dart';
 import 'package:nasa_repository/nasa_repository.dart';
 
 MarsPhotos marsPhotosFromJson(String str) =>
@@ -7,7 +8,7 @@ MarsPhotos marsPhotosFromJson(String str) =>
 
 String marsPhotosToString(MarsPhotos data) => json.encode(data.toJson());
 
-class MarsPhotos {
+class MarsPhotos extends Equatable {
   const MarsPhotos({
     required this.photos,
   });
@@ -21,4 +22,7 @@ class MarsPhotos {
   Map<String, dynamic> toJson() => {
         "photos": List<dynamic>.from(photos.map((x) => x.toJson())),
       };
+
+  @override
+  List<Object?> get props => [photos];
 }

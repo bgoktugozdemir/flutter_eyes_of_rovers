@@ -4,7 +4,26 @@
             "outputFile": "/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/f4a15a5606c9a028857d8a3e89eefa0f/core-1.1.0/res/values-v16/values-v16.xml",
+                    "source": "/Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/65be6f0598cdd70b26102267f3dc2318/appcompat-1.1.0/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "/Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/dee5cc90a79f60fde674fc40209d0d06/core-1.3.2/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

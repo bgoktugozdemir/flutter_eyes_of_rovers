@@ -1,3 +1,4 @@
+export 'adaptive_alert_dialog.dart';
 export 'adaptive_app.dart';
 export 'adaptive_bottom_navigation_bar.dart';
 export 'adaptive_button.dart';

@@ -12,244 +12,341 @@
 12         to allow setting breakpoints, to provide hot reload, etc.
 13    -->
 14    <uses-permission android:name="android.permission.INTERNET" />
-14-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/debug/AndroidManifest.xml:6:5-66
-14-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/debug/AndroidManifest.xml:6:22-64
+14-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:2:3-65
+14-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:2:20-62
 15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-15-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/39226147107c07d612c0b5c242740fda/jetified-firebase-auth-21.0.1/AndroidManifest.xml:24:5-79
-15-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/39226147107c07d612c0b5c242740fda/jetified-firebase-auth-21.0.1/AndroidManifest.xml:24:22-76
-16
-17    <application
-17-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:3:4-40:19
-18        android:name="androidx.multidex.MultiDexApplication"
-19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-19-->[androidx.core:core:1.1.0] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/f4a15a5606c9a028857d8a3e89eefa0f/core-1.1.0/AndroidManifest.xml:24:18-86
-20        android:debuggable="true"
-21        android:icon="@mipmap/ic_launcher"
-21-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:5:9-43
-22        android:label="flutter_eyes_of_rovers" >
-22-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:4:9-47
-23        <activity
-23-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:6:9-34:20
-24            android:name="com.example.flutter_eyes_of_rovers.MainActivity"
-24-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:7:13-41
-25            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-25-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:10:13-163
-26            android:hardwareAccelerated="true"
-26-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:11:13-47
-27            android:launchMode="singleTop"
-27-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:8:13-43
-28            android:theme="@style/LaunchTheme"
-28-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:9:13-47
-29            android:windowSoftInputMode="adjustResize" >
-29-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:12:13-55
-30
-31            <!--
-32                 Specifies an Android theme to apply to this Activity as soon as
-33                 the Android process has started. This theme is visible to the user
-34                 while the Flutter UI initializes. After that, this theme continues
-35                 to determine the Window background behind the Flutter UI.
-36            -->
-37            <meta-data
-37-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:17:13-20:17
-38                android:name="io.flutter.embedding.android.NormalTheme"
-38-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:18:15-70
-39                android:resource="@style/NormalTheme" />
-39-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:19:15-52
-40            <!--
-41                 Displays an Android View that continues showing the launch screen
-42                 Drawable until Flutter paints its first frame, then this splash
-43                 screen fades out. A splash screen is useful to avoid any visual
-44                 gap between the end of Android's launch screen and the painting of
-45                 Flutter's first frame.
-46            -->
-47            <meta-data
-47-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:26:13-29:17
-48                android:name="io.flutter.embedding.android.SplashScreenDrawable"
-48-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:27:15-79
-49                android:resource="@drawable/launch_background" />
-49-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:28:15-61
-50
-51            <intent-filter>
-51-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:30:13-33:29
-52                <action android:name="android.intent.action.MAIN" />
-52-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:31:17-68
-52-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:31:25-66
-53
-54                <category android:name="android.intent.category.LAUNCHER" />
-54-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:32:17-76
-54-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:32:27-74
-55            </intent-filter>
-56        </activity>
-57        <!--
-58             Don't delete the meta-data below.
-59             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
-60        -->
-61        <meta-data
-61-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:37:9-39:33
-62            android:name="flutterEmbedding"
-62-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:38:13-44
-63            android:value="2" />
-63-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:39:13-30
-64
-65        <service
-65-->[:firebase_auth] /Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
-66            android:name="com.google.firebase.components.ComponentDiscoveryService"
-66-->[:firebase_auth] /Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
-67            android:directBootAware="true"
-67-->[com.google.firebase:firebase-common:20.0.0] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/3302300f084732ea1b649fcba8a3ed24/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
-68            android:exported="false" >
-68-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/39226147107c07d612c0b5c242740fda/jetified-firebase-auth-21.0.1/AndroidManifest.xml:76:13-37
-69            <meta-data
-69-->[:firebase_auth] /Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
-70                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
-70-->[:firebase_auth] /Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
-71                android:value="com.google.firebase.components.ComponentRegistrar" />
-71-->[:firebase_auth] /Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
-72            <meta-data
-72-->[:cloud_firestore] /Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
-73                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
-73-->[:cloud_firestore] /Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-134
-74                android:value="com.google.firebase.components.ComponentRegistrar" />
-74-->[:cloud_firestore] /Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
-75            <meta-data
-75-->[:firebase_core] /Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
-76                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
-76-->[:firebase_core] /Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
-77                android:value="com.google.firebase.components.ComponentRegistrar" />
-77-->[:firebase_core] /Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
-78            <meta-data
-78-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/39226147107c07d612c0b5c242740fda/jetified-firebase-auth-21.0.1/AndroidManifest.xml:77:13-79:85
-79                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-79-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/39226147107c07d612c0b5c242740fda/jetified-firebase-auth-21.0.1/AndroidManifest.xml:78:17-109
-80                android:value="com.google.firebase.components.ComponentRegistrar" />
-80-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/39226147107c07d612c0b5c242740fda/jetified-firebase-auth-21.0.1/AndroidManifest.xml:79:17-82
-81            <meta-data
-81-->[com.google.firebase:firebase-firestore:24.0.0] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/3c1065e8c5fa4d3c08ca57e45fe34cc3/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:20:13-22:85
-82                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
-82-->[com.google.firebase:firebase-firestore:24.0.0] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/3c1065e8c5fa4d3c08ca57e45fe34cc3/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:21:17-111
-83                android:value="com.google.firebase.components.ComponentRegistrar" />
-83-->[com.google.firebase:firebase-firestore:24.0.0] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/3c1065e8c5fa4d3c08ca57e45fe34cc3/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:22:17-82
-84        </service>
-85
-86        <activity
-86-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/39226147107c07d612c0b5c242740fda/jetified-firebase-auth-21.0.1/AndroidManifest.xml:27:9-44:20
-87            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
-87-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/39226147107c07d612c0b5c242740fda/jetified-firebase-auth-21.0.1/AndroidManifest.xml:28:13-80
-88            android:excludeFromRecents="true"
-88-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/39226147107c07d612c0b5c242740fda/jetified-firebase-auth-21.0.1/AndroidManifest.xml:29:13-46
-89            android:exported="true"
-89-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/39226147107c07d612c0b5c242740fda/jetified-firebase-auth-21.0.1/AndroidManifest.xml:30:13-36
-90            android:launchMode="singleTask"
-90-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/39226147107c07d612c0b5c242740fda/jetified-firebase-auth-21.0.1/AndroidManifest.xml:31:13-44
-91            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-91-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/39226147107c07d612c0b5c242740fda/jetified-firebase-auth-21.0.1/AndroidManifest.xml:32:13-72
-92            <intent-filter>
-92-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/39226147107c07d612c0b5c242740fda/jetified-firebase-auth-21.0.1/AndroidManifest.xml:33:13-43:29
-93                <action android:name="android.intent.action.VIEW" />
-93-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/39226147107c07d612c0b5c242740fda/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:17-69
-93-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/39226147107c07d612c0b5c242740fda/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:25-66
-94
-95                <category android:name="android.intent.category.DEFAULT" />
-95-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/39226147107c07d612c0b5c242740fda/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
-95-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/39226147107c07d612c0b5c242740fda/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
-96                <category android:name="android.intent.category.BROWSABLE" />
-96-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/39226147107c07d612c0b5c242740fda/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
-96-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/39226147107c07d612c0b5c242740fda/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+15-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/ceba8926491d1deb43d669b824f0c93d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:24:5-79
+15-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/ceba8926491d1deb43d669b824f0c93d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:24:22-76
+16    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+16-->[com.android.installreferrer:installreferrer:1.0] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/66ae716a9e7d8114381161c83bb25d15/jetified-installreferrer-1.0/AndroidManifest.xml:9:5-110
+16-->[com.android.installreferrer:installreferrer:1.0] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/66ae716a9e7d8114381161c83bb25d15/jetified-installreferrer-1.0/AndroidManifest.xml:9:22-107
+17
+18    <application
+18-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:3:3-36:17
+19        android:name="androidx.multidex.MultiDexApplication"
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.3.2] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/dee5cc90a79f60fde674fc40209d0d06/core-1.3.2/AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:3:55-89
+23        android:label="flutter_eyes_of_rovers"
+23-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:3:16-54
+24        android:supportsRtl="true" >
+24-->[com.facebook.android:facebook-login:12.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/9bf8df65903d39c27cf7542998876090/jetified-facebook-login-12.0.1/AndroidManifest.xml:28:18-44
+25        <activity
+25-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:4:5-20:16
+26            android:name="com.example.flutter_eyes_of_rovers.MainActivity"
+26-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:4:15-43
+27            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+27-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:4:110-260
+28            android:hardwareAccelerated="true"
+28-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:4:261-295
+29            android:launchMode="singleTop"
+29-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:4:44-74
+30            android:theme="@style/LaunchTheme"
+30-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:4:75-109
+31            android:windowSoftInputMode="adjustResize" >
+31-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:4:296-338
+32
+33            <!--
+34           Specifies an Android theme to apply to this Activity as soon as
+35                 the Android process has started. This theme is visible to the user
+36                 while the Flutter UI initializes. After that, this theme continues
+37                 to determine the Window background behind the Flutter UI.
+38            -->
+39            <meta-data
+39-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:9:7-114
+40                android:name="io.flutter.embedding.android.NormalTheme"
+40-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:9:18-73
+41                android:resource="@style/NormalTheme" />
+41-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:9:74-111
+42            <!--
+43           Displays an Android View that continues showing the launch screen
+44                 Drawable until Flutter paints its first frame, then this splash
+45                 screen fades out. A splash screen is useful to avoid any visual
+46                 gap between the end of Android's launch screen and the painting of
+47                 Flutter's first frame.
+48            -->
+49            <meta-data
+49-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:15:7-132
+50                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+50-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:15:18-82
+51                android:resource="@drawable/launch_background" />
+51-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:15:83-129
+52
+53            <intent-filter>
+53-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:16:7-19:23
+54                <action android:name="android.intent.action.MAIN" />
+54-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:17:9-60
+54-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:17:17-58
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:18:9-68
+56-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:18:19-66
+57            </intent-filter>
+58        </activity>
+59        <!--
+60         Don't delete the meta-data below.
+61             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+62        -->
+63        <meta-data
+63-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:23:5-68
+64            android:name="flutterEmbedding"
+64-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:23:16-47
+65            android:value="2" />
+65-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:23:48-65
+66        <meta-data
+66-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:25:5-103
+67            android:name="com.facebook.sdk.ApplicationId"
+67-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:25:16-61
+68            android:value="@string/facebook_app_id" />
+68-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:25:62-101
+69
+70        <activity
+70-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:27:5-179
+71            android:name="com.facebook.FacebookActivity"
+71-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:27:15-59
+72            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+72-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:27:60-143
+73            android:label="@string/app_name"
+73-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:27:144-176
+74            android:theme="@style/com_facebook_activity_theme" />
+74-->[com.facebook.android:facebook-common:12.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/5b12246902d3c0fb47a81c3098efc87c/jetified-facebook-common-12.0.1/AndroidManifest.xml:33:13-63
+75        <activity
+75-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:28:5-35:16
+76            android:name="com.facebook.CustomTabActivity"
+76-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:28:15-60
+77            android:exported="true" >
+77-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:28:61-84
+78            <intent-filter>
+78-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:29:7-34:23
+79                <action android:name="android.intent.action.VIEW" />
+79-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:30:9-61
+79-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:30:17-58
+80
+81                <category android:name="android.intent.category.DEFAULT" />
+81-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:31:9-68
+81-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:31:19-65
+82                <category android:name="android.intent.category.BROWSABLE" />
+82-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:32:9-70
+82-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:32:19-67
+83
+84                <data android:scheme="@string/fb_login_protocol_scheme" />
+84-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:33:9-67
+84-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:33:15-64
+85            </intent-filter>
+86            <intent-filter>
+86-->[com.facebook.android:facebook-common:12.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/5b12246902d3c0fb47a81c3098efc87c/jetified-facebook-common-12.0.1/AndroidManifest.xml:39:13-48:29
+87                <action android:name="android.intent.action.VIEW" />
+87-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:30:9-61
+87-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:30:17-58
+88
+89                <category android:name="android.intent.category.DEFAULT" />
+89-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:31:9-68
+89-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:31:19-65
+90                <category android:name="android.intent.category.BROWSABLE" />
+90-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:32:9-70
+90-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:32:19-67
+91
+92                <data
+92-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:33:9-67
+93                    android:host="cct.com.example.flutter_eyes_of_rovers"
+94                    android:scheme="fbconnect" />
+94-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:33:15-64
+95            </intent-filter>
+96        </activity>
 97
-98                <data
-98-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/39226147107c07d612c0b5c242740fda/jetified-firebase-auth-21.0.1/AndroidManifest.xml:39:17-42:51
-99                    android:host="firebase.auth"
-99-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/39226147107c07d612c0b5c242740fda/jetified-firebase-auth-21.0.1/AndroidManifest.xml:40:21-49
-100                    android:path="/"
-100-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/39226147107c07d612c0b5c242740fda/jetified-firebase-auth-21.0.1/AndroidManifest.xml:41:21-37
-101                    android:scheme="genericidp" />
-101-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/39226147107c07d612c0b5c242740fda/jetified-firebase-auth-21.0.1/AndroidManifest.xml:42:21-48
-102            </intent-filter>
-103        </activity>
-104        <activity
-104-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/39226147107c07d612c0b5c242740fda/jetified-firebase-auth-21.0.1/AndroidManifest.xml:45:9-62:20
-105            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
-105-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/39226147107c07d612c0b5c242740fda/jetified-firebase-auth-21.0.1/AndroidManifest.xml:46:13-79
-106            android:excludeFromRecents="true"
-106-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/39226147107c07d612c0b5c242740fda/jetified-firebase-auth-21.0.1/AndroidManifest.xml:47:13-46
-107            android:exported="true"
-107-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/39226147107c07d612c0b5c242740fda/jetified-firebase-auth-21.0.1/AndroidManifest.xml:48:13-36
-108            android:launchMode="singleTask"
-108-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/39226147107c07d612c0b5c242740fda/jetified-firebase-auth-21.0.1/AndroidManifest.xml:49:13-44
-109            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-109-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/39226147107c07d612c0b5c242740fda/jetified-firebase-auth-21.0.1/AndroidManifest.xml:50:13-72
-110            <intent-filter>
-110-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/39226147107c07d612c0b5c242740fda/jetified-firebase-auth-21.0.1/AndroidManifest.xml:51:13-61:29
-111                <action android:name="android.intent.action.VIEW" />
-111-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/39226147107c07d612c0b5c242740fda/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:17-69
-111-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/39226147107c07d612c0b5c242740fda/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:25-66
+98        <service
+98-->[:firebase_auth] /Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+99            android:name="com.google.firebase.components.ComponentDiscoveryService"
+99-->[:firebase_auth] /Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+100            android:directBootAware="true"
+100-->[com.google.firebase:firebase-common:20.0.0] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/81bdf2e2b66573dceb7529a91162dd79/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+101            android:exported="false" >
+101-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/ceba8926491d1deb43d669b824f0c93d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:76:13-37
+102            <meta-data
+102-->[:firebase_auth] /Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+103                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+103-->[:firebase_auth] /Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+104                android:value="com.google.firebase.components.ComponentRegistrar" />
+104-->[:firebase_auth] /Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+105            <meta-data
+105-->[:firebase_core] /Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+106                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+106-->[:firebase_core] /Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+107                android:value="com.google.firebase.components.ComponentRegistrar" />
+107-->[:firebase_core] /Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+108            <meta-data
+108-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/ceba8926491d1deb43d669b824f0c93d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:77:13-79:85
+109                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+109-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/ceba8926491d1deb43d669b824f0c93d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:78:17-109
+110                android:value="com.google.firebase.components.ComponentRegistrar" />
+110-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/ceba8926491d1deb43d669b824f0c93d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:79:17-82
+111        </service>
 112
-113                <category android:name="android.intent.category.DEFAULT" />
-113-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/39226147107c07d612c0b5c242740fda/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
-113-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/39226147107c07d612c0b5c242740fda/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
-114                <category android:name="android.intent.category.BROWSABLE" />
-114-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/39226147107c07d612c0b5c242740fda/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
-114-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/39226147107c07d612c0b5c242740fda/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
-115
-116                <data
-116-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/39226147107c07d612c0b5c242740fda/jetified-firebase-auth-21.0.1/AndroidManifest.xml:39:17-42:51
-117                    android:host="firebase.auth"
-117-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/39226147107c07d612c0b5c242740fda/jetified-firebase-auth-21.0.1/AndroidManifest.xml:40:21-49
-118                    android:path="/"
-118-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/39226147107c07d612c0b5c242740fda/jetified-firebase-auth-21.0.1/AndroidManifest.xml:41:21-37
-119                    android:scheme="recaptcha" />
-119-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/39226147107c07d612c0b5c242740fda/jetified-firebase-auth-21.0.1/AndroidManifest.xml:42:21-48
-120            </intent-filter>
-121        </activity>
-122
-123        <service
-123-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/39226147107c07d612c0b5c242740fda/jetified-firebase-auth-21.0.1/AndroidManifest.xml:64:9-73:19
-124            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
-124-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/39226147107c07d612c0b5c242740fda/jetified-firebase-auth-21.0.1/AndroidManifest.xml:65:13-101
-125            android:enabled="true"
-125-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/39226147107c07d612c0b5c242740fda/jetified-firebase-auth-21.0.1/AndroidManifest.xml:66:13-35
-126            android:exported="false" >
-126-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/39226147107c07d612c0b5c242740fda/jetified-firebase-auth-21.0.1/AndroidManifest.xml:67:13-37
-127            <intent-filter>
-127-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/39226147107c07d612c0b5c242740fda/jetified-firebase-auth-21.0.1/AndroidManifest.xml:68:13-72:29
-128                <action android:name="com.google.firebase.auth.api.gms.service.START" />
-128-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/39226147107c07d612c0b5c242740fda/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:17-89
-128-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/39226147107c07d612c0b5c242740fda/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:25-86
-129
-130                <category android:name="android.intent.category.DEFAULT" />
-130-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/39226147107c07d612c0b5c242740fda/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
-130-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/39226147107c07d612c0b5c242740fda/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
-131            </intent-filter>
-132        </service>
-133
-134        <provider
-134-->[com.google.firebase:firebase-common:20.0.0] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/3302300f084732ea1b649fcba8a3ed24/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
-135            android:name="com.google.firebase.provider.FirebaseInitProvider"
-135-->[com.google.firebase:firebase-common:20.0.0] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/3302300f084732ea1b649fcba8a3ed24/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
-136            android:authorities="com.example.flutter_eyes_of_rovers.firebaseinitprovider"
-136-->[com.google.firebase:firebase-common:20.0.0] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/3302300f084732ea1b649fcba8a3ed24/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
-137            android:directBootAware="true"
-137-->[com.google.firebase:firebase-common:20.0.0] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/3302300f084732ea1b649fcba8a3ed24/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
-138            android:exported="false"
-138-->[com.google.firebase:firebase-common:20.0.0] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/3302300f084732ea1b649fcba8a3ed24/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
-139            android:initOrder="100" />
-139-->[com.google.firebase:firebase-common:20.0.0] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/3302300f084732ea1b649fcba8a3ed24/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
-140
-141        <activity
-141-->[com.google.android.gms:play-services-base:17.1.0] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/93fbae78ce8dc134e45274d9cd223907/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
-142            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-142-->[com.google.android.gms:play-services-base:17.1.0] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/93fbae78ce8dc134e45274d9cd223907/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
-143            android:exported="false"
-143-->[com.google.android.gms:play-services-base:17.1.0] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/93fbae78ce8dc134e45274d9cd223907/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
-144            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-144-->[com.google.android.gms:play-services-base:17.1.0] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/93fbae78ce8dc134e45274d9cd223907/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
-145
-146        <meta-data
-146-->[com.google.android.gms:play-services-basement:17.1.0] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/44839bb2c2273d4740a7525da7c26a24/jetified-play-services-basement-17.1.0/AndroidManifest.xml:23:9-25:69
-147            android:name="com.google.android.gms.version"
-147-->[com.google.android.gms:play-services-basement:17.1.0] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/44839bb2c2273d4740a7525da7c26a24/jetified-play-services-basement-17.1.0/AndroidManifest.xml:24:13-58
-148            android:value="@integer/google_play_services_version" />
-148-->[com.google.android.gms:play-services-basement:17.1.0] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/44839bb2c2273d4740a7525da7c26a24/jetified-play-services-basement-17.1.0/AndroidManifest.xml:25:13-66
-149    </application>
-150
-151</manifest>
+113        <activity android:name="com.facebook.CustomTabMainActivity" />
+113-->[com.facebook.android:facebook-common:12.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/5b12246902d3c0fb47a81c3098efc87c/jetified-facebook-common-12.0.1/AndroidManifest.xml:34:9-71
+113-->[com.facebook.android:facebook-common:12.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/5b12246902d3c0fb47a81c3098efc87c/jetified-facebook-common-12.0.1/AndroidManifest.xml:34:19-68
+114        <!--
+115         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+116         with the application context. This config is merged in with the host app's manifest,
+117         but there can only be one provider with the same authority activated at any given
+118         point; so if the end user has two or more different apps that use Facebook SDK, only the
+119         first one will be able to use the provider. To work around this problem, we use the
+120         following placeholder in the authority to identify each host application as if it was
+121         a completely different provider.
+122        -->
+123        <provider
+123-->[com.facebook.android:facebook-core:12.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/d17227d8bb3f0ccbd65ed85c2beabcd6/jetified-facebook-core-12.0.1/AndroidManifest.xml:39:9-42:40
+124            android:name="com.facebook.internal.FacebookInitProvider"
+124-->[com.facebook.android:facebook-core:12.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/d17227d8bb3f0ccbd65ed85c2beabcd6/jetified-facebook-core-12.0.1/AndroidManifest.xml:40:13-70
+125            android:authorities="com.example.flutter_eyes_of_rovers.FacebookInitProvider"
+125-->[com.facebook.android:facebook-core:12.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/d17227d8bb3f0ccbd65ed85c2beabcd6/jetified-facebook-core-12.0.1/AndroidManifest.xml:41:13-72
+126            android:exported="false" />
+126-->[com.facebook.android:facebook-core:12.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/d17227d8bb3f0ccbd65ed85c2beabcd6/jetified-facebook-core-12.0.1/AndroidManifest.xml:42:13-37
+127
+128        <receiver
+128-->[com.facebook.android:facebook-core:12.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/d17227d8bb3f0ccbd65ed85c2beabcd6/jetified-facebook-core-12.0.1/AndroidManifest.xml:44:9-50:20
+129            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+129-->[com.facebook.android:facebook-core:12.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/d17227d8bb3f0ccbd65ed85c2beabcd6/jetified-facebook-core-12.0.1/AndroidManifest.xml:45:13-86
+130            android:exported="false" >
+130-->[com.facebook.android:facebook-core:12.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/d17227d8bb3f0ccbd65ed85c2beabcd6/jetified-facebook-core-12.0.1/AndroidManifest.xml:46:13-37
+131            <intent-filter>
+131-->[com.facebook.android:facebook-core:12.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/d17227d8bb3f0ccbd65ed85c2beabcd6/jetified-facebook-core-12.0.1/AndroidManifest.xml:47:13-49:29
+132                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+132-->[com.facebook.android:facebook-core:12.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/d17227d8bb3f0ccbd65ed85c2beabcd6/jetified-facebook-core-12.0.1/AndroidManifest.xml:48:17-95
+132-->[com.facebook.android:facebook-core:12.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/d17227d8bb3f0ccbd65ed85c2beabcd6/jetified-facebook-core-12.0.1/AndroidManifest.xml:48:25-92
+133            </intent-filter>
+134        </receiver>
+135        <receiver
+135-->[com.facebook.android:facebook-core:12.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/d17227d8bb3f0ccbd65ed85c2beabcd6/jetified-facebook-core-12.0.1/AndroidManifest.xml:51:9-57:20
+136            android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver"
+136-->[com.facebook.android:facebook-core:12.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/d17227d8bb3f0ccbd65ed85c2beabcd6/jetified-facebook-core-12.0.1/AndroidManifest.xml:52:13-118
+137            android:exported="false" >
+137-->[com.facebook.android:facebook-core:12.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/d17227d8bb3f0ccbd65ed85c2beabcd6/jetified-facebook-core-12.0.1/AndroidManifest.xml:53:13-37
+138            <intent-filter>
+138-->[com.facebook.android:facebook-core:12.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/d17227d8bb3f0ccbd65ed85c2beabcd6/jetified-facebook-core-12.0.1/AndroidManifest.xml:54:13-56:29
+139                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED" />
+139-->[com.facebook.android:facebook-core:12.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/d17227d8bb3f0ccbd65ed85c2beabcd6/jetified-facebook-core-12.0.1/AndroidManifest.xml:55:17-103
+139-->[com.facebook.android:facebook-core:12.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/d17227d8bb3f0ccbd65ed85c2beabcd6/jetified-facebook-core-12.0.1/AndroidManifest.xml:55:25-100
+140            </intent-filter>
+141        </receiver>
+142
+143        <activity
+143-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/ceba8926491d1deb43d669b824f0c93d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:27:9-44:20
+144            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+144-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/ceba8926491d1deb43d669b824f0c93d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:28:13-80
+145            android:excludeFromRecents="true"
+145-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/ceba8926491d1deb43d669b824f0c93d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:29:13-46
+146            android:exported="true"
+146-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/ceba8926491d1deb43d669b824f0c93d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:30:13-36
+147            android:launchMode="singleTask"
+147-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/ceba8926491d1deb43d669b824f0c93d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:31:13-44
+148            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+148-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/ceba8926491d1deb43d669b824f0c93d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:32:13-72
+149            <intent-filter>
+149-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/ceba8926491d1deb43d669b824f0c93d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:33:13-43:29
+150                <action android:name="android.intent.action.VIEW" />
+150-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:30:9-61
+150-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:30:17-58
+151
+152                <category android:name="android.intent.category.DEFAULT" />
+152-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:31:9-68
+152-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:31:19-65
+153                <category android:name="android.intent.category.BROWSABLE" />
+153-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:32:9-70
+153-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:32:19-67
+154
+155                <data
+155-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:33:9-67
+156                    android:host="firebase.auth"
+157                    android:path="/"
+158                    android:scheme="genericidp" />
+158-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:33:15-64
+159            </intent-filter>
+160        </activity>
+161        <activity
+161-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/ceba8926491d1deb43d669b824f0c93d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:45:9-62:20
+162            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+162-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/ceba8926491d1deb43d669b824f0c93d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:46:13-79
+163            android:excludeFromRecents="true"
+163-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/ceba8926491d1deb43d669b824f0c93d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:47:13-46
+164            android:exported="true"
+164-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/ceba8926491d1deb43d669b824f0c93d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:48:13-36
+165            android:launchMode="singleTask"
+165-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/ceba8926491d1deb43d669b824f0c93d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:49:13-44
+166            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+166-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/ceba8926491d1deb43d669b824f0c93d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:50:13-72
+167            <intent-filter>
+167-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/ceba8926491d1deb43d669b824f0c93d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:51:13-61:29
+168                <action android:name="android.intent.action.VIEW" />
+168-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:30:9-61
+168-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:30:17-58
+169
+170                <category android:name="android.intent.category.DEFAULT" />
+170-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:31:9-68
+170-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:31:19-65
+171                <category android:name="android.intent.category.BROWSABLE" />
+171-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:32:9-70
+171-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:32:19-67
+172
+173                <data
+173-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:33:9-67
+174                    android:host="firebase.auth"
+175                    android:path="/"
+176                    android:scheme="recaptcha" />
+176-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:33:15-64
+177            </intent-filter>
+178        </activity>
+179
+180        <service
+180-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/ceba8926491d1deb43d669b824f0c93d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:64:9-73:19
+181            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+181-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/ceba8926491d1deb43d669b824f0c93d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:65:13-101
+182            android:enabled="true"
+182-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/ceba8926491d1deb43d669b824f0c93d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:66:13-35
+183            android:exported="false" >
+183-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/ceba8926491d1deb43d669b824f0c93d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:67:13-37
+184            <intent-filter>
+184-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/ceba8926491d1deb43d669b824f0c93d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:68:13-72:29
+185                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+185-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/ceba8926491d1deb43d669b824f0c93d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:17-89
+185-->[com.google.firebase:firebase-auth:21.0.1] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/ceba8926491d1deb43d669b824f0c93d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:25-86
+186
+187                <category android:name="android.intent.category.DEFAULT" />
+187-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:31:9-68
+187-->/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/android/app/src/main/AndroidManifest.xml:31:19-65
+188            </intent-filter>
+189        </service>
+190
+191        <provider
+191-->[com.google.firebase:firebase-common:20.0.0] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/81bdf2e2b66573dceb7529a91162dd79/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+192            android:name="com.google.firebase.provider.FirebaseInitProvider"
+192-->[com.google.firebase:firebase-common:20.0.0] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/81bdf2e2b66573dceb7529a91162dd79/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+193            android:authorities="com.example.flutter_eyes_of_rovers.firebaseinitprovider"
+193-->[com.google.firebase:firebase-common:20.0.0] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/81bdf2e2b66573dceb7529a91162dd79/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+194            android:directBootAware="true"
+194-->[com.google.firebase:firebase-common:20.0.0] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/81bdf2e2b66573dceb7529a91162dd79/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+195            android:exported="false"
+195-->[com.google.firebase:firebase-common:20.0.0] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/81bdf2e2b66573dceb7529a91162dd79/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+196            android:initOrder="100" />
+196-->[com.google.firebase:firebase-common:20.0.0] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/81bdf2e2b66573dceb7529a91162dd79/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+197
+198        <activity
+198-->[com.google.android.gms:play-services-base:17.1.0] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/0e8e6a89765928c1ad2decc9a07f4903/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+199            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+199-->[com.google.android.gms:play-services-base:17.1.0] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/0e8e6a89765928c1ad2decc9a07f4903/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+200            android:exported="false"
+200-->[com.google.android.gms:play-services-base:17.1.0] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/0e8e6a89765928c1ad2decc9a07f4903/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+201            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+201-->[com.google.android.gms:play-services-base:17.1.0] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/0e8e6a89765928c1ad2decc9a07f4903/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+202
+203        <meta-data
+203-->[com.google.android.gms:play-services-basement:17.1.0] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/bd56cef4a94604e93c35cb69c7a9da4f/jetified-play-services-basement-17.1.0/AndroidManifest.xml:23:9-25:69
+204            android:name="com.google.android.gms.version"
+204-->[com.google.android.gms:play-services-basement:17.1.0] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/bd56cef4a94604e93c35cb69c7a9da4f/jetified-play-services-basement-17.1.0/AndroidManifest.xml:24:13-58
+205            android:value="@integer/google_play_services_version" />
+205-->[com.google.android.gms:play-services-basement:17.1.0] /Users/bgoktugozdemir/.gradle/caches/transforms-2/files-2.1/bd56cef4a94604e93c35cb69c7a9da4f/jetified-play-services-basement-17.1.0/AndroidManifest.xml:25:13-66
+206    </application>
+207
+208</manifest>

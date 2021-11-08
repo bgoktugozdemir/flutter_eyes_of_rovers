@@ -2,6 +2,8 @@ import 'package:enum_to_string/enum_to_string.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_eyes_of_rovers/core/services/services.dart';
+import 'package:flutter_eyes_of_rovers/core/utils/utils.dart';
 import 'package:nasa_repository/nasa_repository.dart';
 
 import 'package:flutter_eyes_of_rovers/core/widgets/widgets.dart';
@@ -9,32 +11,17 @@ import 'package:flutter_eyes_of_rovers/pages/gallery/bloc/gallery_bloc.dart';
 import 'package:flutter_eyes_of_rovers/pages/gallery/widgets/widgets.dart';
 import 'package:flutter_eyes_of_rovers/widgets/widgets.dart';
 
-class GalleryPage extends StatelessWidget {
+class GalleryPage extends StatefulWidget {
   const GalleryPage({Key? key}) : super(key: key);
 
   @override
-  Widget build(BuildContext context) {
-    return BlocProvider(
-      create: (_) => GalleryBloc()
-        ..add(const GalleryPhotosFetchedByMartianSolEvent(
-          rover: Rovers.curiosity,
-        )),
-      child: const _GalleryScreen(),
-    );
-  }
+  State<GalleryPage> createState() => GalleryPageState();
 }
 
-class _GalleryScreen extends StatefulWidget {
-  const _GalleryScreen({Key? key}) : super(key: key);
-
-  @override
-  State<_GalleryScreen> createState() => _GalleryScreenState();
-}
-
-class _GalleryScreenState extends State<_GalleryScreen> {
+class GalleryPageState extends State<GalleryPage> {
   int currentIndex = 0;
 
-  late List<BottomNavigationBarItem> bottomBarItems;
+  late final List<BottomNavigationBarItem> bottomBarItems;
 
   @override
   void initState() {
@@ -70,10 +57,21 @@ class _GalleryScreenState extends State<_GalleryScreen> {
     return AdaptiveScaffold(
       appBar: AdaptiveAppBar(
         materialAppBar: AppBar(
-          title: const Text('Gallery Page'),
+          title: Text(
+            getIt<AuthService>().currentUser?.displayName ?? 'Gallery Page',
+          ),
+          actions: [
+            IconButton(onPressed: _signOut, icon: const Icon(Icons.logout))
+          ],
         ),
-        cupertinoAppBar: const CupertinoNavigationBar(
-          middle: Text('Gallery Page'),
+        cupertinoAppBar: CupertinoNavigationBar(
+          middle: Text(
+            getIt<AuthService>().currentUser?.displayName ?? 'Gallery Page',
+          ),
+          trailing: GestureDetector(
+            onTap: _signOut,
+            child: const Icon(CupertinoIcons.multiply),
+          ),
         ),
       ),
       body: _GalleryBody(rover: currentRover),
@@ -91,6 +89,8 @@ class _GalleryScreenState extends State<_GalleryScreen> {
       ),
     );
   }
+
+  Future<void> _signOut() => getIt<AuthService>().signOut();
 
   Rovers get currentRover {
     switch (currentIndex) {

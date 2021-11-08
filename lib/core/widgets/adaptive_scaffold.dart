@@ -57,6 +57,11 @@ class AdaptiveAppBar {
     required this.cupertinoAppBar,
   });
 
+  factory AdaptiveAppBar.onlyTitle({Widget? title}) => AdaptiveAppBar(
+        materialAppBar: AppBar(title: title),
+        cupertinoAppBar: CupertinoNavigationBar(middle: title),
+      );
+
   final AppBar materialAppBar;
   final CupertinoNavigationBar cupertinoAppBar;
 }

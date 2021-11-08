@@ -124,7 +124,7 @@ class _GalleryBody extends StatelessWidget {
               ],
             );
           case GalleryFetchInProgress:
-            return const Center(child: AdaptiveProgressIndicator());
+            return const LoadingView();
           case GalleryFetchFailure:
             final failure = (state as GalleryFetchFailure).failure.runtimeType;
             return ErrorView(

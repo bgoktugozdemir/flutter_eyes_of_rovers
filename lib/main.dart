@@ -1,9 +1,12 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:parasut_eyes_of_rovers/core/widgets/widgets.dart';
-import 'package:parasut_eyes_of_rovers/pages/login/login_page.dart';
+import 'package:flutter_eyes_of_rovers/core/widgets/widgets.dart';
+import 'package:flutter_eyes_of_rovers/pages/login/login_page.dart';
+import 'package:flutter_eyes_of_rovers/pages/splash/splash_page.dart';
 
-void main() {
+Future<void> main() async {
+  // TODO: Native Splash
+  WidgetsFlutterBinding.ensureInitialized();
   runApp(const MyApp());
 }
 
@@ -34,7 +37,7 @@ class MyApp extends StatelessWidget {
           primaryColor: CupertinoColors.activeBlue,
         ),
       ),
-      home: const LoginPage(),
+      home: const SplashPage(),
     );
   }
 }

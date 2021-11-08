@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "260900264932",
+    "project_id": "flutter-eyes-of-rovers",
+    "storage_bucket": "flutter-eyes-of-rovers.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:260900264932:android:759eaa8fa9c6724ab205f1",
+        "android_client_info": {
+          "package_name": "com.example.flutter_eyes_of_rovers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "260900264932-hjja539oo0h8jshnpuve6vbln4b0p9de.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANxHpQcDEaorlD3HWP1DkrbOauMrlu_s0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "260900264932-hjja539oo0h8jshnpuve6vbln4b0p9de.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

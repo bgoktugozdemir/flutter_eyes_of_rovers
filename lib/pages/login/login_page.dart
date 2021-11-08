@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_signin_button/button_view.dart';
 import 'package:flutter_signin_button/flutter_signin_button.dart';
-import 'package:parasut_eyes_of_rovers/core/assets/assets.dart';
-import 'package:parasut_eyes_of_rovers/pages/gallery/gallery_page.dart';
+import 'package:flutter_eyes_of_rovers/core/assets/assets.dart';
+import 'package:flutter_eyes_of_rovers/pages/gallery/gallery_page.dart';
 
 class LoginPage extends StatelessWidget {
   const LoginPage({Key? key}) : super(key: key);

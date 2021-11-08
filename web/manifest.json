@@ -1,6 +1,6 @@
 {
-    "name": "parasut_eyes_of_rovers",
-    "short_name": "parasut_eyes_of_rovers",
+    "name": "flutter_eyes_of_rovers",
+    "short_name": "flutter_eyes_of_rovers",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

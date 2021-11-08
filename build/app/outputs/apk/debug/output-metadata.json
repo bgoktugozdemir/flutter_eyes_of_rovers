@@ -4,7 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.example.parasut_eyes_of_rovers",
+  "applicationId": "com.example.flutter_eyes_of_rovers",
   "variantName": "processDebugResources",
   "elements": [
     {

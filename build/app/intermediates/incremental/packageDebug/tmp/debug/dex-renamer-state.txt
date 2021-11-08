@@ -1,4 +1,10 @@
-#Sun Nov 07 23:52:22 TRT 2021
+#Mon Nov 08 21:47:20 TRT 2021
+base.2=/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/build/app/intermediates/dex/debug/mergeDexDebug/classes3.dex
+path.2=classes3.dex
+base.1=/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/build/app/intermediates/dex/debug/mergeDexDebug/classes2.dex
+path.1=classes2.dex
 base.0=/Users/bgoktugozdemir/Projects/Flutter/Parasut/flutter_eyes_of_rovers/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
 renamed.0=classes.dex
 path.0=classes.dex

@@ -1,9 +1,9 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/widgets.dart';
 
-import 'package:parasut_eyes_of_rovers/core/widgets/widgets.dart';
-import 'package:parasut_eyes_of_rovers/pages/landing/landing_page.dart';
-import 'package:parasut_eyes_of_rovers/widgets/widgets.dart';
+import 'package:flutter_eyes_of_rovers/core/widgets/widgets.dart';
+import 'package:flutter_eyes_of_rovers/pages/landing/landing_page.dart';
+import 'package:flutter_eyes_of_rovers/widgets/widgets.dart';
 
 class SplashPage extends StatelessWidget {
   const SplashPage({Key? key}) : super(key: key);

@@ -1,4 +1,4 @@
-# parasut_eyes_of_rovers
+# flutter_eyes_of_rovers
 
 A new Flutter project.
 

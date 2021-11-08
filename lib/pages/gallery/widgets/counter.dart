@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import 'package:parasut_eyes_of_rovers/core/widgets/widgets.dart';
+import 'package:flutter_eyes_of_rovers/core/widgets/widgets.dart';
 
 class Counter extends StatefulWidget {
   const Counter({

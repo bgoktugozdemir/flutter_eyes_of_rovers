@@ -44,8 +44,8 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId "com.example.parasut_eyes_of_rovers"
-        minSdkVersion 16
+        applicationId "com.example.flutter_eyes_of_rovers"
+        minSdkVersion 19
         targetSdkVersion 30
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName

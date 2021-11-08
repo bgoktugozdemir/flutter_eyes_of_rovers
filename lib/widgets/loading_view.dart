@@ -1,5 +1,5 @@
 import 'package:flutter/widgets.dart';
-import 'package:parasut_eyes_of_rovers/core/widgets/widgets.dart';
+import 'package:flutter_eyes_of_rovers/core/widgets/widgets.dart';
 
 class LoadingView extends StatelessWidget {
   const LoadingView({Key? key}) : super(key: key);

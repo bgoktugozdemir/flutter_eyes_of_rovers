@@ -506,13 +506,13 @@
       "languageVersion": "2.12"
     },
     {
-      "name": "parasut_eyes_of_rovers",
+      "name": "flutter_eyes_of_rovers",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2021-11-08T18:23:05.465780Z",
+  "generated": "2021-11-08T18:42:38.138463Z",
   "generator": "pub",
   "generatorVersion": "2.14.4"
 }

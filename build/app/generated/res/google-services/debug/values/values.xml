@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">260900264932-hjja539oo0h8jshnpuve6vbln4b0p9de.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">260900264932</string>
+    <string name="google_api_key" translatable="false">AIzaSyANxHpQcDEaorlD3HWP1DkrbOauMrlu_s0</string>
+    <string name="google_app_id" translatable="false">1:260900264932:android:759eaa8fa9c6724ab205f1</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyANxHpQcDEaorlD3HWP1DkrbOauMrlu_s0</string>
+    <string name="google_storage_bucket" translatable="false">flutter-eyes-of-rovers.appspot.com</string>
+    <string name="project_id" translatable="false">flutter-eyes-of-rovers</string>
+</resources>

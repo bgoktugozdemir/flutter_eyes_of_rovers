@@ -4,10 +4,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:nasa_repository/nasa_repository.dart';
 
-import 'package:parasut_eyes_of_rovers/core/widgets/widgets.dart';
-import 'package:parasut_eyes_of_rovers/pages/gallery/bloc/gallery_bloc.dart';
-import 'package:parasut_eyes_of_rovers/pages/gallery/widgets/widgets.dart';
-import 'package:parasut_eyes_of_rovers/widgets/widgets.dart';
+import 'package:flutter_eyes_of_rovers/core/widgets/widgets.dart';
+import 'package:flutter_eyes_of_rovers/pages/gallery/bloc/gallery_bloc.dart';
+import 'package:flutter_eyes_of_rovers/pages/gallery/widgets/widgets.dart';
+import 'package:flutter_eyes_of_rovers/widgets/widgets.dart';
 
 class GalleryPage extends StatelessWidget {
   const GalleryPage({Key? key}) : super(key: key);

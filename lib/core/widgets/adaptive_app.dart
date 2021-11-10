@@ -49,8 +49,7 @@ class AdaptiveThemeData {
   dynamic get adaptiveThemeData =>
       Platform.isIOS ? cupertinoThemeData : materialThemeData;
 
-  static of(BuildContext context) =>
-      Platform.isIOS ? CupertinoTheme.of(context) : Theme.of(context);
+  static Color? primaryColor(BuildContext context) => Platform.isIOS
+      ? CupertinoTheme.of(context).primaryColor
+      : Theme.of(context).primaryColor;
 }
-
-class AdaptiveTheme {}

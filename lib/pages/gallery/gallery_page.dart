@@ -2,6 +2,7 @@ import 'package:enum_to_string/enum_to_string.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_eyes_of_rovers/widgets/circle_image.dart';
 import 'package:nasa_repository/nasa_repository.dart';
 
 import 'package:flutter_eyes_of_rovers/core/widgets/widgets.dart';
@@ -53,25 +54,28 @@ class GalleryPageState extends State<GalleryPage> {
 
   @override
   Widget build(BuildContext context) {
+    final user = context.read<AuthenticationBloc>().state.user;
+
     return AdaptiveScaffold(
       appBar: AdaptiveAppBar(
         materialAppBar: AppBar(
-          title: Text(
-            context.read<AuthenticationBloc>().state.user.name ??
-                'Gallery Page',
-          ),
+          title: Text(user.name ?? 'Gallery Page'),
           actions: [
-            IconButton(onPressed: _signOut, icon: const Icon(Icons.logout))
+            IconButton(
+              onPressed: _signOut,
+              icon: user.photo != null
+                  ? CircleAvatar(child: _ProfilePhoto(photoUrl: user.photo))
+                  : const Icon(Icons.logout),
+            ),
           ],
         ),
         cupertinoAppBar: CupertinoNavigationBar(
-          middle: Text(
-            context.read<AuthenticationBloc>().state.user.name ??
-                'Gallery Page',
-          ),
+          middle: Text(user.name ?? 'Gallery Page'),
           trailing: GestureDetector(
             onTap: _signOut,
-            child: const Icon(CupertinoIcons.multiply),
+            child: user.photo != null
+                ? _ProfilePhoto(photoUrl: user.photo)
+                : const Icon(CupertinoIcons.multiply),
           ),
         ),
       ),
@@ -105,6 +109,20 @@ class GalleryPageState extends State<GalleryPage> {
       default:
         return Rovers.curiosity;
     }
+  }
+}
+
+class _ProfilePhoto extends StatelessWidget {
+  const _ProfilePhoto({Key? key, required this.photoUrl}) : super(key: key);
+
+  final String? photoUrl;
+
+  @override
+  Widget build(BuildContext context) {
+    if (photoUrl == null) {
+      return const SizedBox.shrink();
+    }
+    return CircleImage.network(photoUrl!);
   }
 }
 

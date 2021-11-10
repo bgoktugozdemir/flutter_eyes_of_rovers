@@ -17,7 +17,7 @@ class SplashPage extends StatelessWidget {
           if (snapshot.hasError) {
             return const ErrorView(message: 'Something went wrong');
           } else if (snapshot.connectionState == ConnectionState.done) {
-            return LandingPage();
+            return const LandingPage();
           } else {
             return const LoadingView();
           }

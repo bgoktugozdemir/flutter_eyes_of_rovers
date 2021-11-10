@@ -1,14 +1,25 @@
-/// Abstract class for all AuthenticationExceptions
-abstract class AuthenticationException implements Exception {}
+/// {@template authentication_failure}
+/// Abstract class for all AuthenticationFailures
+/// Thrown if during the authentication process if a failure occurs.
+/// {@endtemplate}
+
+abstract class AuthenticationFailure implements Exception {
+  /// {@macro authentication_failure}
+  const AuthenticationFailure(this.message);
+
+  /// The associated error message.
+  final String message;
+}
 
 /// {@template sign_in_with_facebook_failure}
 /// Thrown if during the sign up process if a failure occurs.
 /// {@endtemplate}
-class SignInWithFacebookFailure implements AuthenticationException {
+class SignInWithFacebookFailure implements AuthenticationFailure {
   /// {@macro sign_in_with_facebook_failure}
   const SignInWithFacebookFailure(
       [this.message =
-          'Something went wrong during the signing in with Facebook.']);
+          'Something went wrong during the signing in with Facebook.'])
+      : super();
 
   factory SignInWithFacebookFailure.fromCode(String code) {
     /// For more info about the error codes:
@@ -84,11 +95,14 @@ class SignInWithFacebookFailure implements AuthenticationException {
     }
   }
 
-  /// The associated error message.
+  @override
   final String message;
 }
 
 /// Thrown during the signout process if a failure occurs.
-class SignOutFailure implements AuthenticationException {
-  const SignOutFailure();
+class SignOutFailure implements AuthenticationFailure {
+  const SignOutFailure([this.message = 'Something went wrong.']);
+
+  @override
+  final String message;
 }

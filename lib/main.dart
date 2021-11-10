@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_eyes_of_rovers/core/utils/get_it.dart';
+import 'package:flutter_eyes_of_rovers/core/utils/utils.dart';
 import 'package:flutter_eyes_of_rovers/core/widgets/widgets.dart';
 import 'package:flutter_eyes_of_rovers/pages/splash/splash_page.dart';
 

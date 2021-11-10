@@ -16,14 +16,14 @@ class AuthenticationRepository {
   /// Stream of [User] which will emit the current user when
   /// the authentication state changes.
   ///
-  /// Emits [User.empty()] if the user is not authenticated.
+  /// Emits [User.empty] if the user is not authenticated.
   Stream<User> get user =>
       _firebaseAuth.authStateChanges().map((firebaseUser) =>
-          firebaseUser == null ? User.empty() : firebaseUser.toUser());
+          firebaseUser == null ? User.empty : firebaseUser.toUser());
 
   /// Returns the current user.
-  /// Defaults to [User.empty()] if there is no user.
-  User get currentUser => _firebaseAuth.currentUser?.toUser() ?? User.empty();
+  /// Defaults to [User.empty] if there is no user.
+  User get currentUser => _firebaseAuth.currentUser?.toUser() ?? User.empty;
 
   /// Starts the Sign In with Facebook flow.
   ///
@@ -41,7 +41,6 @@ class AuthenticationRepository {
     } on firebase_auth.FirebaseAuthException catch (e) {
       throw SignInWithFacebookFailure.fromCode(e.code);
     } catch (_) {
-      print(_);
       throw const SignInWithFacebookFailure();
     }
   }

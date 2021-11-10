@@ -150,12 +150,12 @@ void main() {
     });
 
     group('user', () {
-      test('emits User.empty() when firebase user is null', () async {
+      test('emits User.empty when firebase user is null', () async {
         when(() => firebaseAuth.authStateChanges())
             .thenAnswer((_) => Stream.value(null));
 
-        await expectLater(authenticationRepository.user,
-            emitsInAnyOrder(<User>[User.empty()]));
+        await expectLater(
+            authenticationRepository.user, emitsInAnyOrder(<User>[User.empty]));
       });
 
       test('emits User when firebase user is not null', () async {
@@ -177,10 +177,10 @@ void main() {
     });
 
     group('currentUser', () {
-      test('returns User.empty() when user is null', () {
+      test('returns User.empty when user is null', () {
         when(() => firebaseAuth.currentUser).thenReturn(null);
 
-        expect(authenticationRepository.currentUser, equals(User.empty()));
+        expect(authenticationRepository.currentUser, equals(User.empty));
       });
 
       final firebaseUser = MockFirebaseUser();

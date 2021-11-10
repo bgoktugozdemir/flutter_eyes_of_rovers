@@ -2,13 +2,12 @@ import 'package:enum_to_string/enum_to_string.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_eyes_of_rovers/core/services/services.dart';
-import 'package:flutter_eyes_of_rovers/core/utils/utils.dart';
 import 'package:nasa_repository/nasa_repository.dart';
 
 import 'package:flutter_eyes_of_rovers/core/widgets/widgets.dart';
 import 'package:flutter_eyes_of_rovers/pages/gallery/bloc/gallery_bloc.dart';
 import 'package:flutter_eyes_of_rovers/pages/gallery/widgets/widgets.dart';
+import 'package:flutter_eyes_of_rovers/pages/landing/bloc/authentication_bloc.dart';
 import 'package:flutter_eyes_of_rovers/widgets/widgets.dart';
 
 class GalleryPage extends StatefulWidget {
@@ -58,7 +57,8 @@ class GalleryPageState extends State<GalleryPage> {
       appBar: AdaptiveAppBar(
         materialAppBar: AppBar(
           title: Text(
-            getIt<AuthService>().currentUser?.displayName ?? 'Gallery Page',
+            context.read<AuthenticationBloc>().state.user.name ??
+                'Gallery Page',
           ),
           actions: [
             IconButton(onPressed: _signOut, icon: const Icon(Icons.logout))
@@ -66,7 +66,8 @@ class GalleryPageState extends State<GalleryPage> {
         ),
         cupertinoAppBar: CupertinoNavigationBar(
           middle: Text(
-            getIt<AuthService>().currentUser?.displayName ?? 'Gallery Page',
+            context.read<AuthenticationBloc>().state.user.name ??
+                'Gallery Page',
           ),
           trailing: GestureDetector(
             onTap: _signOut,
@@ -90,7 +91,9 @@ class GalleryPageState extends State<GalleryPage> {
     );
   }
 
-  Future<void> _signOut() => getIt<AuthService>().signOut();
+  void _signOut() => context
+      .read<AuthenticationBloc>()
+      .add(const AuthenticationSignOutRequested());
 
   Rovers get currentRover {
     switch (currentIndex) {

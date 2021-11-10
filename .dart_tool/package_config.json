@@ -26,6 +26,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "authentication_repository",
+      "rootUri": "../packages/authentication_repository",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "bloc",
       "rootUri": "file:///Users/bgoktugozdemir/Development/flutter/.pub-cache/hosted/pub.dartlang.org/bloc-7.2.1",
       "packageUri": "lib/",
@@ -518,7 +524,7 @@
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2021-11-09T19:24:21.715937Z",
+  "generated": "2021-11-10T08:00:42.051826Z",
   "generator": "pub",
   "generatorVersion": "2.14.4"
 }

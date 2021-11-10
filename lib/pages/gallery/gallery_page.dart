@@ -138,7 +138,13 @@ class _GalleryBody extends StatelessWidget {
             );
           case GalleryInitial:
           default:
-            return Center(child: Text(state.runtimeType.toString()));
+            return EmptyView(
+              icon: const AdaptiveIcon(
+                cupertinoIcon: CupertinoIcons.refresh,
+                materialIcon: Icons.refresh,
+              ).icon,
+              message: 'Try to load the images.',
+            );
         }
       },
     );
